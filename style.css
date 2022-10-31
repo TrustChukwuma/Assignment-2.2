@@ -1,0 +1,244 @@
+
+
+
+@font-face {
+    font-family: 'amaranthbold';
+    src: url('fonts/amaranth-bold-webfont.woff') format('woff'),
+         url('fonts/amaranth-bold-webfont.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('fonts/amaranth-regular-webfont.woff') format('woff'),
+         url('fonts/amaranth-regular-webfont.woff2') format('woff2'),
+         url('fonts/amaranth-regular-webfont.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #949494;
+}
+
+p{
+    font-family: amaranthregular;
+    font-size: 15px;
+}
+
+li{
+    font-family: amaranthregular;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+h5{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h6{
+    font-size: 12px;
+    margin: 1px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: amaranthbold;
+}
+
+header>ul{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding-right: 800px;
+    list-style-type: none
+}
+
+#banner{
+    background-image: url(images/bg.jpg);
+    height: 350px;
+}
+
+#profile>img{
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: -150px;
+    position: relative;
+}
+
+#profileContent{
+    align-items: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+#profileContent>h2{
+    margin-top: 3px;
+    color: #949494;
+    font-size: 21px!important;
+}
+
+#profileContent>p{
+    font-size: 17px;
+    color: #949494;
+}
+
+#profileLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    padding-bottom: 55px;
+}
+
+.container>img{
+    border-radius: 50%;
+    height: 30px;
+    padding: 5px;
+}
+
+#aboutUs{
+    background-image: linear-gradient(rgb(67 92 188),rgb(67 98 215 / 45%)),url(images/section-bg.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+#aboutusContent{
+    margin: 200px;
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+#aboutusContent>h2{
+    font-size: 25px!important;
+    color: white;
+}
+
+#aboutusContent>p{
+    color: white;
+}
+
+span{
+    color: limegreen;
+}
+
+#experienceContent{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+figure{
+    background-color: grey;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+#experience>figure>h2{
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    min-width: 600px;
+    min-height: 350px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px;
+}
+
+#content>img{
+    height: 100px;
+}
+
+.info{
+    text-align: left;
+    margin-left: 15px;
+    color: #949494;
+}
+
+.info>ul{
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+.info>ul>li{
+    padding-bottom: 8px;
+}
+
+#download{
+    background-image: linear-gradient(rgb(29 51 134 / 75%),rgb(67 98 215 / 45%)),url(images/section-bg.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+#downloadContent{
+    margin: 200px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-top: 70px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#downloadContent>p{
+    margin-bottom: 3px;
+}
+
+button{
+    background-color: limegreen;
+    color: white;
+    border-radius: 19px;
+    border-color: limegreen;
+    height: 38px;
+    width: 100px;
+    font-family: amaranthbold;
+    font-size: 15px;
+}
+
+#placeholder>img{
+    height: 350px;
+}
+
+
+#container{
+    display: flex;
+}
