@@ -235,10 +235,101 @@ button{
 }
 
 #placeholder>img{
-    height: 350px;
+    height: 300px;
+    width: 420px;
 }
 
 
 #container{
     display: flex;
+    justify-content: center;
+    margin: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#portfolioContent{
+    text-align: center;
+}
+
+#portfolioContent>h2{
+    margin-top: 60px;
+    color: #949494;
+}
+
+#contactContent{
+    display: flex;
+}
+
+#contactContent>h2{
+    text-align: center;
+}
+
+#contact>h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.form-control{
+    width: 600px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid limegreen;
+    color: #black;
+}
+
+.form-group>p{
+    color: black;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+option{
+    color: black;
+}
+
+label{
+    font-family: amaranthregular;
+}
+
+iframe{
+    margin-left: 20px;
+}
+
+#tableSection{
+    background-image: linear-gradient(rgb(29 51 134 / 75%),rgb(67 98 215 / 45%)),url(images/section-bg.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#tableSection>table{
+    align-items: center;
+    margin-left: 300px;
+    width: 700px;
+    height: 300px;
+    margin-right: 300px;
+    font-family: amaranthregular;
+    font-size: 16px;
+    color: #fff;
+    border: white solid 1px ;
+}
+
+th{
+    font-size: 19px;
+}
+
+td{
+    text-align: left;
+    padding-left: 20px;
+}
+
+#tableSection>h2{
+    color: #fff;
 }
